@@ -14,10 +14,10 @@ The Load/Path-aware Service Function Scheduler is merged into OpenDaylight Carbo
 
 Also, the contents of other repositories related to the Service Function Scheduler have been merged into this repository. Details are shown in the table below.
 
-> ### Past Repositories
+> ### Past Repositories (under K-OpenNet)
 
-|  <sub>#</sub>  | <sub>Repository Name</sub> | <sub>Contents</sub> | <sub>URL</sub> |
-|:---:|:----:|:----------:|:------:|
-| <sub>1</sub> | <sub>OPNFV-ODL-IFG</sub> | <sub> Netopeer TransAPI for Service Function </sub> | <sub>https://github.com/K-OpenNet/OPNFV-ODL-IFG</sub> |
-| <sub>2</sub> | <sub>ODL-OPNFV-LoadPathAwareSFschedulerAPI</sub> | <sub> Load/Path-aware SF Scheduler API </sub> | <sub>https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerAPI</sub> | 
-| <sub>3</sub> | <sub>ODL-OPNFV-LoadPathAwareSFschedulerTest </sub>| <sub> Unit tests for Load/Path-aware SF Scheduler API</sub>| <sub>https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerTest</sub>|
+| # | Repository Name      | Contents                                        | URl                                                                 |
+|---|----------------------------------------|-------------------------------------------------|---------------------------------------------------------------------|
+| 1 | OPNFV-ODL-IFG                          | Netopeer TransAPI for Service Function          | https://github.com/K-OpenNet/OPNFV-ODL-IFG                          |
+| 2 | ODL-OPNFV-LoadPathAwareSFschedulerAPI  | Load/Path-aware SF Scheduler API                | https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerAPI  |
+| 3 | ODL-OPNFV-LoadPathAwareSFschedulerTest | Unit tests for Load/Path-aware SF Scheduler API | https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerTest |
