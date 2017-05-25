@@ -1,27 +1,13 @@
 # OPNFV-ODL-SFC
-This is a repository for development on Load/Path-aware Service Function Scheduler based on OPNFV SFC and OpenDaylight SFC projects. 
-The Load/Path-aware Service Function Scheduler is merged into OpenDaylight Carbon release and also, planned to be merged in OPNFV Danube release. 
+This is a repository for development on resource-aware VNFFG (or IFG) Construction Algorithm based on OpenStack Tacker and OPNFV SFC projects. 
+Currently, VNFFG Manager in Tacker determines VNF instances to be included in the VNFFG instance in a random manner. The proposed resource-aware VNFFG Construction Algorithm will construct VNFFG instance with the consideration of resource status on running VNF instances.
 
-The 'Working History' table shows the events related to the Scheduler.
-The 'Past Repositories' table shows other repositories related to the Scheduler under K-OpenNet which have been merged into this repository.
+The 'Working History' table shows the events related to the VNFFG Construction Algorithm.
 
 > ### Working History
-| Date    | Target Project         | Contents                                                                                         | Remarks                            |
-|---------|------------------------|--------------------------------------------------------------------------------------------------|------------------------------------|
-| 2016/07 | OPNFV/OpenDaylight SFC | Online meeting with OpenDaylight SFC PTL to propose the Load/Path-aware SF Scheduler             |                                    |
-| 2016/08 | OPNFV/OpenDaylight SFC | Modifications to SF Scheduler API Yang Model for Load/Path-aware SF Scheduler                    |                                    |
-| 2016/09 | OPNFV/OpenDaylight SFC | Implementations on Load/Path-aware SF Scheduler                                                  |                                    |
-| 2016/10 | OPNFV/OpenDaylight SFC | Offline meeting with OpenDaylight SFC Team to discuss issues on the Load/Path-aware SF Scheduler | OpenDaylight Summit 2016 (Seattle) |
-| 2016/10 | OPNFV/OpenDaylight SFC | DLUX UI for Load/Path-aware SF Scheduler                                                         |                                    |
-| 2016/11 | OPNFV/OpenDaylight SFC | Implementations on the unit test for Load/Path-aware SF Scheduler                                |                                    |
-| 2017/02 | OPNFV/OpenDaylight SFC | Bug fix and code refactoring for Load/Path-aware SF Scheduler                                    |                                    |
-| 2017/05 | OPNFV/OpenDaylight SFC | Load/Path-aware SF Scheduler is merged into OpenDaylight Carbon Release                          |                                    |
-
-
-> ### Past Repositories (under K-OpenNet)
-
-| # | Repository Name      | Contents                                        | URl                                                                 |
-|---|----------------------------------------|-------------------------------------------------|---------------------------------------------------------------------|
-| 1 | OPNFV-ODL-IFG                          | Netopeer TransAPI for Service Function          | https://github.com/K-OpenNet/OPNFV-ODL-IFG                          |
-| 2 | ODL-OPNFV-LoadPathAwareSFschedulerAPI  | Load/Path-aware SF Scheduler API                | https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerAPI  |
-| 3 | ODL-OPNFV-LoadPathAwareSFschedulerTest | Unit tests for Load/Path-aware SF Scheduler API | https://github.com/K-OpenNet/ODL-OPNFV-LoadPathAwareSFschedulerTest |
+| Date    | Target Project               | Contents                                                                                                                                                                                                              | Remarks                            |
+|---------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| 2016/10 | OpenStack Tacker / OPNFV SFC | Offline meeting with OpenStack Tacker developer to discuss on the VNFFG Construction Algorithm                                                                                                                        | OpenDaylight Summit 2016 (Seattle) |
+| 2017/03 | OpenStack Tacker / OPNFV SFC | Studies on existing Tacker specs and features                                                                                                                                                                         |                                    |
+| 2017/04 | OpenStack Tacker / OPNFV SFC | Code analysis on Tacker VNFFG Manager and test existing VNFFG construction method                                                                                                                                     |                                    |
+| 2017/05 | OpenStack Tacker / OPNFV SFC | Offline meeting with OpenStack Tacker PTL to discuss on the VNFFG Construction Algorithm. One of the main concerns is that the current Tacker does not support resource related metrics on the running VNF instances. | OpenStack Summit 2017 (Boston)     |
