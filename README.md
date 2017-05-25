@@ -1,6 +1,9 @@
 # OPNFV-ODL-SFC
 This is a repository for development on Load/Path-aware Service Function Scheduler based on OPNFV SFC and OpenDaylight SFC projects. 
-The Load/Path-aware Service Function Scheduler is merged into OpenDaylight Carbon release and also, planned to be merged in OPNFV Danube release.
+The Load/Path-aware Service Function Scheduler is merged into OpenDaylight Carbon release and also, planned to be merged in OPNFV Danube release. 
+
+The 'Working History' table shows the events related to the Scheduler.
+The 'Past Repositories' table shows other repositories related to the Scheduler under K-OpenNet which have been merged into this repository.
 
 > ### Working History
 | Date    | Target Project         | Contents                                                                                         | Remarks                            |
