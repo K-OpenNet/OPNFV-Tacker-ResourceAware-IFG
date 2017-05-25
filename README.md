@@ -17,7 +17,6 @@ The 'Past Repositories' table shows other repositories related to the Scheduler 
 | 2017/02 | OPNFV/OpenDaylight SFC | Bug fix and code refactoring for Load/Path-aware SF Scheduler                                    |                                    |
 | 2017/05 | OPNFV/OpenDaylight SFC | Load/Path-aware SF Scheduler is merged into OpenDaylight Carbon Release                          |                                    |
 
-Also, the contents of other repositories related to the Service Function Scheduler have been merged into this repository. Details are shown in the table below.
 
 > ### Past Repositories (under K-OpenNet)
 
